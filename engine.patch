@@ -1,0 +1,12 @@
+diff --git a/engine/engine.c b/engine/engine.c
+index d0c70d3..eb67514 100644
+--- a/engine/engine.c
++++ b/engine/engine.c
+@@ -63,6 +63,7 @@
+ 
+ #include "vv/vv-io.h"
+ 
++#include "mtproto/mtproto-config.h"
+ 
+ #define DEFAULT_EPOLL_WAIT_TIMEOUT 37
+ 
